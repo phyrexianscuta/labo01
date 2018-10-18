@@ -17,13 +17,19 @@ TEST(lista_test, test_agregar_un_elemento_adelante) {
     l.agregarAdelante(42);
     EXPECT_EQ(l.longitud(), 1);
     EXPECT_EQ(l.iesimo(0), 42);
+    l.agregarAdelante(43);
+    l.agregarAdelante(44);
+    EXPECT_EQ(l.longitud(), 3);
+
 }
 
 TEST(lista_test, test_agregar_un_elemento_atras) {
     Lista<int> l;
     l.agregarAtras(42);
     EXPECT_EQ(l.longitud(), 1);
-    EXPECT_EQ(l.iesimo(0), 42);
+    l.agregarAtras(43);
+    l.agregarAtras(44);
+    EXPECT_EQ(l.longitud(), 3);
 }
 
 TEST(lista_test, test_agregar_varios_elementos_solo_adelante) {

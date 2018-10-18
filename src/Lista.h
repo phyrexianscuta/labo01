@@ -60,12 +60,18 @@ public:
     }
 
 private:
-
     struct Nodo {
-        // Completar
+        T valor;
+        Nodo* siguiente;
+        Nodo* anterior;
+        Nodo(T val,Nodo* ant, Nodo* sig ) : valor(val), anterior(ant), siguiente(sig) {
+        }
     };
 
-    // Completar
+    Nodo* prim;
+    Nodo* ult;
+
+    Nodo* iesimoptr(Nat i) const;
 };
 
 #include "Lista.hpp"
