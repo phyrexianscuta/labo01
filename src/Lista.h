@@ -72,6 +72,9 @@ private:
     Nodo* ult;
 
     Nodo* iesimoptr(Nat i) const;
+    void destruirNodos();
+    void copiarNodos(const Lista<T> &lista);
+
 };
 
 #include "Lista.hpp"

@@ -13,12 +13,26 @@ Lista<T>::Lista(const Lista<T> &l) : Lista() { *this = l; }
 
 template<typename T>
 Lista<T>::~Lista() {
-    // Completar
+    destruirNodos();
+}
+
+template<typename T>
+void Lista<T>::destruirNodos() {
+    Nodo* actual = prim;
+    while (actual != nullptr){
+         Nodo* siguiente = actual -> siguiente;
+        delete actual;
+        actual = siguiente;
+    }
+    prim = nullptr;
+
 }
 
 template<typename T>
 Lista<T> &Lista<T>::operator=(const Lista<T> &l) {
-    // Completar
+    destruirNodos();
+    copiarNodos(l);
+    return *this;
 }
 
 template<typename T>
@@ -66,19 +80,18 @@ typename Lista<T>::Nodo *Lista<T>::iesimoptr(Nat i) const {
     Nodo *it = prim;
     int contador = 0;
     while (contador != i) {
-        it = prim->siguiente;
+        it = it->siguiente;
         contador++;
     }
     return it;
 }
-
 
 template<typename T>
 const T &Lista<T>::iesimo(Nat i) const {
     Nodo *it = prim;
     int contador = 0;
     while (contador != i) {
-        it = prim->siguiente;
+        it = it->siguiente;
         contador++;
     }
     return it->valor;
@@ -132,5 +145,22 @@ T &Lista<T>::iesimo(Nat i) {
 
 template<typename T>
 void Lista<T>::mostrar(std::ostream &o) {
-    // Completar
+  /*  for (int i= 0; i < longitud(); i ++){
+        o << iesimo(i) << std::endl;
+    }*/
+}
+
+template<typename T>
+void Lista<T>::copiarNodos(const Lista<T> &lista) {
+    if(lista.longitud()==0){
+        prim = nullptr;
+        ult = nullptr;
+    } else {
+
+        for (int  i = 0; i < lista.longitud() ; i++){
+            agregarAtras(lista.iesimo(i));
+        }
+
+    }
+
 }

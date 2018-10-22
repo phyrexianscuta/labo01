@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/correrTests.dir/tests/lista_tests.cpp.o"
+  "CMakeFiles/correrTests.dir/tests/lista_tests.cpp.obj"
   "correrTests.pdb"
-  "correrTests"
+  "correrTests.exe"
+  "correrTests.exe.manifest"
+  "libcorrerTests.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

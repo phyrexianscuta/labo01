@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/wbusch/Descargas/TP Labo 01/tests/lista_tests.cpp" "/home/wbusch/Descargas/TP Labo 01/cmake-build-debug/CMakeFiles/correrTests.dir/tests/lista_tests.cpp.o"
+  "C:/Users/ger/Documents/C++/laboratorio1/labo01/tests/lista_tests.cpp" "C:/Users/ger/Documents/C++/laboratorio1/labo01/cmake-build-debug/CMakeFiles/correrTests.dir/tests/lista_tests.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,8 +17,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/wbusch/Descargas/TP Labo 01/cmake-build-debug/tests/google-test/CMakeFiles/gtest.dir/DependInfo.cmake"
-  "/home/wbusch/Descargas/TP Labo 01/cmake-build-debug/tests/google-test/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "C:/Users/ger/Documents/C++/laboratorio1/labo01/cmake-build-debug/tests/google-test/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "C:/Users/ger/Documents/C++/laboratorio1/labo01/cmake-build-debug/tests/google-test/CMakeFiles/gtest_main.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

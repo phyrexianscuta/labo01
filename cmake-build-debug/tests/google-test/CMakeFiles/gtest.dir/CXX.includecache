@@ -540,21 +540,21 @@ sys/types.h
 src/gtest-internal-inl.h
 ../tests/google-test/src/src/gtest-internal-inl.h
 
-/home/wbusch/Descargas/TP Labo 01/tests/google-test/src/gtest-all.cc
+C:/Users/ger/Documents/C++/laboratorio1/labo01/tests/google-test/src/gtest-all.cc
 gtest/gtest.h
-/home/wbusch/Descargas/TP Labo 01/tests/google-test/src/gtest/gtest.h
+C:/Users/ger/Documents/C++/laboratorio1/labo01/tests/google-test/src/gtest/gtest.h
 src/gtest.cc
-/home/wbusch/Descargas/TP Labo 01/tests/google-test/src/src/gtest.cc
+C:/Users/ger/Documents/C++/laboratorio1/labo01/tests/google-test/src/src/gtest.cc
 src/gtest-death-test.cc
-/home/wbusch/Descargas/TP Labo 01/tests/google-test/src/src/gtest-death-test.cc
+C:/Users/ger/Documents/C++/laboratorio1/labo01/tests/google-test/src/src/gtest-death-test.cc
 src/gtest-filepath.cc
-/home/wbusch/Descargas/TP Labo 01/tests/google-test/src/src/gtest-filepath.cc
+C:/Users/ger/Documents/C++/laboratorio1/labo01/tests/google-test/src/src/gtest-filepath.cc
 src/gtest-port.cc
-/home/wbusch/Descargas/TP Labo 01/tests/google-test/src/src/gtest-port.cc
+C:/Users/ger/Documents/C++/laboratorio1/labo01/tests/google-test/src/src/gtest-port.cc
 src/gtest-printers.cc
-/home/wbusch/Descargas/TP Labo 01/tests/google-test/src/src/gtest-printers.cc
+C:/Users/ger/Documents/C++/laboratorio1/labo01/tests/google-test/src/src/gtest-printers.cc
 src/gtest-test-part.cc
-/home/wbusch/Descargas/TP Labo 01/tests/google-test/src/src/gtest-test-part.cc
+C:/Users/ger/Documents/C++/laboratorio1/labo01/tests/google-test/src/src/gtest-test-part.cc
 src/gtest-typed-test.cc
-/home/wbusch/Descargas/TP Labo 01/tests/google-test/src/src/gtest-typed-test.cc
+C:/Users/ger/Documents/C++/laboratorio1/labo01/tests/google-test/src/src/gtest-typed-test.cc
 
